@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-12-12T15:09:44.382Z"
+    "x-generation-date": "2022-12-16T18:38:48.394Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -28,7 +28,7 @@
   },
   "servers": [
     {
-      "url": "http://13.214.190.50/api",
+      "url": "http://localhost:1340/api",
       "description": "Development server"
     }
   ],
@@ -100,7 +100,13 @@
               "name": {
                 "type": "string"
               },
-              "location": {
+              "image": {
+                "type": "string"
+              },
+              "describe": {
+                "type": "string"
+              },
+              "price": {
                 "type": "string"
               }
             }
@@ -119,7 +125,13 @@
               "name": {
                 "type": "string"
               },
-              "location": {
+              "image": {
+                "type": "string"
+              },
+              "describe": {
+                "type": "string"
+              },
+              "price": {
                 "type": "string"
               },
               "createdAt": {
@@ -127,10 +139,6 @@
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -435,7 +443,13 @@
               "name": {
                 "type": "string"
               },
-              "location": {
+              "image": {
+                "type": "string"
+              },
+              "describe": {
+                "type": "string"
+              },
+              "price": {
                 "type": "string"
               },
               "createdAt": {
@@ -443,10 +457,6 @@
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -784,7 +794,13 @@
               "name": {
                 "type": "string"
               },
-              "location": {
+              "image": {
+                "type": "string"
+              },
+              "describe": {
+                "type": "string"
+              },
+              "price": {
                 "type": "string"
               },
               "createdAt": {
@@ -792,10 +808,6 @@
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -1100,7 +1112,13 @@
               "name": {
                 "type": "string"
               },
-              "location": {
+              "image": {
+                "type": "string"
+              },
+              "describe": {
+                "type": "string"
+              },
+              "price": {
                 "type": "string"
               },
               "createdAt": {
@@ -1108,10 +1126,6 @@
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },

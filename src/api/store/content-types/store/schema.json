@@ -4,17 +4,24 @@
   "info": {
     "singularName": "store",
     "pluralName": "stores",
-    "displayName": "Store"
+    "displayName": "Store",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string"
     },
-    "location": {
+    "image": {
+      "type": "string"
+    },
+    "describe": {
+      "type": "string"
+    },
+    "price": {
       "type": "string"
     }
   }
